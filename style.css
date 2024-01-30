@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('https://aalsmeer-watertoren.nl/wp-content/uploads/Watertoren-Aalsmeer-Met-Waterfront-2023-002.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: red;
+    text-align: center;
+    padding: 100px 0; 
+    height: 200px;
+}
+h1 {
+    margin: 0;
+    font-family: Monaco, monospace; 
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.left-column {
+    width: 45%;
+}
+
+.right-column {
+    width: 55%;
+    background-color: red;
+    padding: 10px;
+}
+.article {
+    margin-bottom: 20px;
+}
+
+img.small-image {
+    max-width: 200px; 
+    height: auto;
+    float: right;
+    margin: 0 0 10px 10px; 
+}
+@media screen and (min-width: 600px) {
+    .left-column {
+        width: 45%;
+        margin-right: 5%; 
+    }
+
+    .right-column {
+        width: 50%;
+    }
+
+    img.small-image {
+        margin: 0 10px 10px 0; 
+    }
+}
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
